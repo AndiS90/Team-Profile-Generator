@@ -1,0 +1,31 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "\" node app that generates profiles for a team\"",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndiS90/Team-Profile-Generator.git"
+  },
+  "keywords": [
+    "team",
+    "generator"
+  ],
+  "author": "AndiS90",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndiS90/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/AndiS90/Team-Profile-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "jest": "^27.2.5"
+  }
+}
