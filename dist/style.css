@@ -1,35 +1,57 @@
 :root {
     --mainBackground: #550f15;
     --mainFont: #D9E2DF;
-    --innerPageWidth: 85%;
-    --fontBackground:
-}
+  }
 
 nav{
     background-color: var(--mainBackground);
-
+    margin-top:20px;
+    margin-bottom:20px;
 }
 
 .card-content.top{
     background-color: var(--mainBackground);
-    color: var(--mainFont)
-
+    color: var(--mainFont);
+    padding: 15px;
 }
 
 h1{
     color: var(--mainFont);
     font-size: 3rem;
-    margin-top:0%;
+    margin-top: 10px;
 }
 
 h2{
     color: var(--mainFont);
     font-size: 1.5rem;
+    margin: 2px
 
 }
 
 h3{
     color: var(--mainFont);
     font-size: 1.25rem;
+    margin: 5px;
+}
+
+.card-action.bottom{
+    background-color: var(--mainFont);
+    color:#171D24;
+    font-size:1.0rem;
+    
+}
+
+i {
+
+    color: #445151;
+}
+
+/* .card-action ul li {
+
+    color:black;
+} */
+
+a {
+    color:midnightblue;
 
 }
