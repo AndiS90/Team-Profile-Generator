@@ -86,12 +86,12 @@ function generateHTML(title, managers, engineers, interns) {
   
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   
-      <link rel="stylesheet" href="./dist/style.css">
+      <link rel="stylesheet" href="./style.css">
   </head>
   
   <style>
       body {
-          background-image: url('./assets/images/wallpaper-1.jpg');
+          background-image: url('../assets/images/wallpaper-1.jpg');
       }
   </style>
   

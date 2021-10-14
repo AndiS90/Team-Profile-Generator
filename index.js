@@ -177,7 +177,7 @@ async function menuIf(answer){
 function writeToFile(title, managers, engineers, interns) {
     const htmlContent = genHTML.generateHTML(title, managers, engineers, interns);
 
-    fs.writeFile(`${title}.html`, htmlContent, (err) =>
+    fs.writeFile(`./dist/${title}.html`, htmlContent, (err) =>
         err ? console.log(err) : console.log(`Successfully created a new team Profile at ${title}.html!`)
     );
 };
