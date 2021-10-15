@@ -5,7 +5,8 @@ describe("Engineer", () => {
         it("should return an object containing 'id', 'moniker', 'email', and 'github' properties when called with the 'new' keyword", () => {
             const obj = new engineer();
 
-            expect("id" in obj && "moniker" in obj && "email" in obj && "github").toEqual(true);
+         
+            expect("id" in obj && "moniker" in obj && "email" in obj && "github" in obj).toEqual(true);
         });
 
         it("should set properties when created with 4 corresponding parameters", () => {
@@ -24,9 +25,9 @@ describe("Engineer", () => {
     describe("getName", () => {
         it("should return the 'Engineer' object's 'moniker' value", () => {
             const id = 10;
-            const name = "Josh";
-            const email = "email@email.com";
-            const gh = "Username"
+            const name ="Josh";
+            const email ="email@email.com";
+            const gh ="Username"
 
             const obj = new engineer(id, name, email, gh);
 
@@ -38,7 +39,7 @@ describe("Engineer", () => {
     });
 
     describe("getEmail", () => {
-        it("should return the 'engineer' object's 'email' value", () => {
+        it("should return the 'Engineer' object's 'email' value", () => {
             const id = 10;
             const name = "Josh";
             const email = "email@email.com";
@@ -53,7 +54,7 @@ describe("Engineer", () => {
     });
 
     describe("getID", () => {
-        it("should return the 'engineer' object's 'id' value", () => {
+        it("should return the 'Engineer' object's 'id' value", () => {
             const id = 10;
             const name = "Josh";
             const email = "email@email.com";
@@ -69,7 +70,7 @@ describe("Engineer", () => {
     });
 
     describe("getGithub", () => {
-        it("should return the 'engineer' object's 'github' value", () => {
+        it("should return the 'Engineer' object's 'github' value", () => {
             const id = 10;
             const name = "Josh";
             const email = "email@email.com";

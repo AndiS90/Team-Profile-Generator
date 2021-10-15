@@ -6,6 +6,7 @@ describe("manager", () => {
             const obj = new manager();
 
             expect("id" in obj && "moniker" in obj && "email" in obj && "office" in obj).toEqual(true);
+
         });
 
         it("should set properties when created with 4 corresponding parameters", () => {

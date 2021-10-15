@@ -5,7 +5,9 @@ describe("Employee", () => {
         it("should return an object containing 'id', 'moniker', and 'email' properties when called with the 'new' keyword", () => {
             const obj = new employee();
 
-            expect("id" in obj && "moniker" in obj && "email" in obj).toEqual(true);
+
+
+           expect("id" in obj && "moniker" in obj && "email" in obj).toEqual(true);
         });
 
         it("should set properties when created with 3 corresponding parameters", () => {

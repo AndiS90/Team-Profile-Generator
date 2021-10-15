@@ -1,14 +1,14 @@
 {
   "name": "team-profile-generator",
   "version": "1.0.0",
-  "description": "\" node app that generates profiles for a team\"",
+  "description": " node app that generates profiles for a team",
   "main": "index.js",
   "directories": {
     "lib": "lib",
     "test": "tests"
   },
   "scripts": {
-    "test": "npm test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,9 @@
   },
   "homepage": "https://github.com/AndiS90/Team-Profile-Generator#readme",
   "dependencies": {
-    "inquirer": "^8.2.0",
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {
     "jest": "^27.2.5"
   }
 }

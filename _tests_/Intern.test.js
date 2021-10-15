@@ -5,6 +5,7 @@ describe("Intern", () => {
         it("should return an object containing 'id', 'moniker', 'email', and 'school' properties when called with the 'new' keyword", () => {
             const obj = new intern();
 
+
             expect("id" in obj && "moniker" in obj && "email" in obj && "school" in obj).toEqual(true);
         });
 
@@ -15,6 +16,8 @@ describe("Intern", () => {
             const sch = "SMU"
 
             const obj = new intern(id, name, email, sch);
+
+            
 
             expect(obj.id && obj.moniker && obj.email && obj.school).toEqual(id && name && email && sch);
         });
