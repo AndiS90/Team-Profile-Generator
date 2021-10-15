@@ -46,12 +46,6 @@ i {
     color: #445151;
 }
 
-/* .card-action ul li {
-
-    color:black;
-} */
-
-a {
-    color:midnightblue;
-
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) { 
+    color:rgb(26, 26, 151); 
 }

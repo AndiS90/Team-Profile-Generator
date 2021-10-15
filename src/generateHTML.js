@@ -1,73 +1,64 @@
 //TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderManager(managers) {
-  if (managers) {
-    managers.forEach(manager => `<div class="col s12 m4 l3">
+for(i=0; i<managers.length; i++) 
+{return`<div class="col s12 m4 l3">
     <div class="card">
         <div class="card-content top">
-            <h2 class="card-title "><strong>${manager.moniker}</strong></h2>
+            <h2 class="card-title "><strong>${managers[i].moniker}</strong></h2>
             <h3 class=" valign-wrapper ">Manager &nbsp; <i class="small material-icons"> brightness_5</i>
             </h3>
         </div>
         <div class="card-action bottom">
             <ul class="">
-                <li class="">ID: ${manager.id}</li>
-                <li class="">EMAIL: <a href="mailto:${manager.email}"> ${manager.email} </a></li>
-                <li class="">OFFICE: ${manager.office}</li>
+                <li class="">ID: ${managers[i].id}</li>
+                <li class="">EMAIL: <a href="mailto:${managers[i].email}"> ${managers[i].email} </a></li>
+                <li class="">OFFICE: ${managers[i].office}</li>
             </ul>
         </div>                  
     </div>
-</div>` );
-  }
-  return '';
-
-}
+</div>` };
+  };
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderEngineers(engineers) {
-  if ( engineers.length !== 0) {
-
-    engineers.forEach(engineer => `<div class="col s12 m4 l3">
+  for (i=0; i<engineers.length; i++) 
+  { return `<div class="col s12 m4 l3">
     <div class="card">
         <div class="card-content top">
-            <h2 class="card-title"><strong>${engineer.moniker}</strong></h2>
+            <h2 class="card-title"><strong>${engineers[i].moniker}</strong></h2>
             <h3 class=" valign-wrapper">Engineer &nbsp;<i class="small material-icons"> brightness_3</i></h3>
         </div>
         <div class="card-action bottom">
             <ul class="">
-                <li class="">ID: ${engineer.id} </li>
-                <li class="">EMAIL:<a href="mailto:${engineer.email}">${engineer.email}</a> </li>
-                <li class="">GITHUB:<a href="https://github.com/${engineer.github}"> ${engineer.github}</a></li>
+                <li class="">ID: ${engineers[i].id} </li>
+                <li class="">EMAIL: <a href="mailto:${engineers[i].email}"> ${engineers[i].email}</a> </li>
+                <li class="">GITHUB: <a href="https://github.com/${engineers[i].github}"> ${engineers[i].github}</a></li>
             </ul>
         </div>
     </div>
-</div>` );
-  }
-  return '';
-}
+</div>` };
+  };
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderInterns(interns) {
-  if ( interns.length !== 0) {
-    interns.forEach(intern => `<div class="col s12 m4 l3">
+ for (i=0; i<interns.length; i++)
+ { return `<div class="col s12 m4 l3">
     <div class="card ">
         <div class="card-content top">
-            <h2 class="card-title"><strong>${intern.moniker}</strong></h2>
+            <h2 class="card-title"><strong>${interns[i].moniker}</strong></h2>
             <h3 class="valign-wrapper">Intern &nbsp; <i class="small material-icons"> cloud</i> </h3>
         </div>
         <div class="card-action bottom">
             <ul class="">
-                <li class="">ID: ${intern.id}</li>
-                <li class="">EMAIL:<a href="mailto:${intern.email} ">${intern.email}</a></li>
-                <li class="">SCHOOL: ${intern.school}</li>
+                <li class="">ID: ${interns[i].id}</li>
+                <li class="">EMAIL: <a href="mailto:${interns[i].email} "> ${interns[i].email}</a></li>
+                <li class="">SCHOOL: ${interns[i].school}</li>
             </ul>
         </div>
     </div>
-</div>` );
-  }
-  return '';
-
+</div>` };
 };
 // TODO: Create a function to generate markdown for README
 function generateHTML(title, managers, engineers, interns) {
