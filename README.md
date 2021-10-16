@@ -53,7 +53,7 @@ node index.js
 
 Your created html file will be stored in the dist folder under your team's name.
 
-[generated html screenshot](./assets/images/screenshot.png) 
+![generated html screenshot](./assets/images/screenshot.png) 
   
   <br>  
   
