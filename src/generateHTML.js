@@ -34,7 +34,7 @@ function renderEngineers(engineers) {
             <ul class="">
                 <li class="">ID: ${engineers[i].id} </li>
                 <li class="">EMAIL: <a href="mailto:${engineers[i].email}"> ${engineers[i].email}</a> </li>
-                <li class="">GITHUB: <a href="https://github.com/${engineers[i].github}"> ${engineers[i].github}</a></li>
+                <li class="">GITHUB: <a href="https://github.com/${engineers[i].github}" target="_blank"> ${engineers[i].github}</a></li>
             </ul>
         </div>
     </div>

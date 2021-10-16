@@ -5,9 +5,9 @@
  
   ## Description:
 
-    A Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.
+   A Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.
   
-    Building this code required a core understanding of Node.js, the file system module, the Jest and Inquirer packages.
+  Building this code required a core understanding of Node.js, the file system module, the Jest and Inquirer packages.
   
 
   ## Table of Contents
@@ -26,13 +26,13 @@
   <br>
 
 
- <!--- [![IMAGE_ALT](https://img.youtube.com/vi/OIHmMYze404/maxresdefault.jpg)](https://www.youtube.com/watch?v=OIHmMYze404) -->
+ 
   
   - Download the code via your preferred method, by clicking the green code button at the top of this page. 
 
   - If you don't have Node.js, you can install it [here](https://nodejs.org/en/download/).
 
-  - Once you're sure the above steps are completed, the dependencies (Inquirer and it's sub-dependencies) are easily installed by navigating to the project's local directory within your command line and entering the below code:
+  - Once you're sure the above steps are completed, the dependencies (Inquirer, Jest, and their sub-dependencies) are easily installed by navigating to the project's local directory within your command line and entering the below code:
 
 ```bash
 npm i
@@ -42,6 +42,8 @@ npm i
   
   ## <span id="usage"> Usage: </span>
   <br>
+
+  [![youtube application screenshot](https://img.youtube.com/vi/oNEmXUfHIlg/maxresdefault.jpg)](https://www.youtube.com/watch?v=oNEmXUfHIlg) 
   
   - Once installed, and you've navigated to the local directory containing the application within your terminal, it may be invoked by using the following command:
 
@@ -50,6 +52,8 @@ node index.js
 ```
 
 Your created html file will be stored in the dist folder under your team's name.
+
+[generated html screenshot](./assets/images/screenshot.png) 
   
   <br>  
   
@@ -100,11 +104,11 @@ SOFTWARE.
 
   or
 
-  - [Report an Issue](https://github.com/AndiS90/README-Generator/issues)
+  - [Report an Issue](https://github.com/AndiS90/Team-Profile-Generator/issues)
 
   or
 
-  - [Make a Pull Request](https://github.com/AndiS90/README-Generator/pulls)
+  - [Make a Pull Request](https://github.com/AndiS90/Team-Profile-Generator/pulls)
   
   <br>
   
@@ -112,6 +116,10 @@ SOFTWARE.
   
   <br>
   
+  
+```bash
+npm test
+```
 
   <br>
   
