@@ -43,7 +43,7 @@ npm i
   ## <span id="usage"> Usage: </span>
   <br>
 
-  [![youtube application screenshot](https://img.youtube.com/vi/oNEmXUfHIlg/maxresdefault.jpg)](https://www.youtube.com/watch?v=oNEmXUfHIlg) 
+  [![youtube application screenshot](https://img.youtube.com/vi/v=oNEmXUfHIlg/maxresdefault.jpg)](https://www.youtube.com/watch?v=oNEmXUfHIlg) 
   
   - Once installed, and you've navigated to the local directory containing the application within your terminal, it may be invoked by using the following command:
 
